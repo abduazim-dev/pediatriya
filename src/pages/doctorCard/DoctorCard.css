@@ -1,0 +1,258 @@
+.doctor-page {
+    padding: 40px 175px 80px;
+}
+
+/* Yuqori qism */
+.doctor-top {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+    margin-bottom: 48px;
+}
+
+/* Rasm */
+.doctor-img {
+    width: 220px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.doctor-img img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    display: block;
+}
+
+/* Ma'lumotlar */
+.doctor-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.doctor-info__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.doctor-info__name {
+    font-size: 24px;
+    font-weight: 700;
+    color: #111827;
+    margin: 0 0 4px;
+}
+
+.doctor-info__position {
+    font-size: 20px;
+    color: #5C5C5C;
+    margin: 0;
+}
+
+.doctor-info__experience {
+    font-size: 18px;
+    color: #2563eb;
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+.doctor-info__desc {
+    font-size: 16px;
+    color: #5C5C5C;
+    line-height: 1.7;
+    margin: 0;
+}
+
+/* Schedule qismi */
+.doctor-schedule {
+    display: flex;
+    gap: 140px;
+    align-items: flex-start;
+    margin-top: 8px;
+}
+
+.doctor-schedule__left {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+/* Prodoctorov */
+.doctor-prodoctorov {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.doctor-prodoctorov .pro {
+    color: #2563eb;
+}
+
+.doctor-prodoctorov .doctorov {
+    color: #111827;
+}
+
+.doctor-reviews {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.doctor-reviews__count {
+    font-size: 16px;
+    color: #374151;
+}
+
+.doctor-reviews__link {
+    font-size: 16px;
+    color: #2563eb;
+    text-decoration: none;
+}
+
+.doctor-reviews__link:hover {
+    text-decoration: underline;
+}
+
+.doctor-place {
+    font-size: 16px;
+    color: #374151;
+    margin: 0;
+}
+
+/* O'ng — jadval + button */
+.doctor-schedule__right {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.doctor-dates {
+    display: flex;
+    gap: 0;
+    border: 1px solid #e5e7eb;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.doctor-date {
+    padding: 8px 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    border-right: 1px solid #e5e7eb;
+    background: #fff;
+}
+
+.doctor-date:last-child {
+    border-right: none;
+}
+
+.doctor-date.active {
+    background: #eff6ff;
+}
+
+.doctor-date__label {
+    font-size: 16px;
+    color: #6b7280;
+}
+
+.doctor-date.active .doctor-date__label {
+    color: #2563eb;
+    font-weight: 600;
+}
+
+.doctor-date__time {
+    font-size: 16px;
+    color: #111827;
+    font-weight: 500;
+}
+doctor-schedule
+.doctor-date.active .doctor-date__time {
+    color: #2563eb;
+}
+
+.doctor-appointment-btn {
+    padding: 15px 92px;
+    background: white;
+    color: #2563eb;
+    border: 1.5px solid #2563eb;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.15s, color 0.15s;
+}
+
+.doctor-appointment-btn:hover {
+    background: #2563eb;
+    color: white;
+}
+
+/* Section — Ta'lim va Malaka oshirish */
+.doctor-section {
+    margin-bottom: 40px;
+}
+
+.doctor-section__header {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 16px;
+}
+
+.doctor-section__header h2 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #111827;
+    margin: 0;
+}
+
+.doctor-section__toggle {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    background: none;
+    border: none;
+    color: #2563eb;
+    font-size: 18px;
+    cursor: pointer;
+    padding: 0;
+    font-weight: 400;
+}
+
+.section-chevron {
+    transition: transform 0.2s ease;
+}
+
+.section-chevron.open {
+    transform: rotate(180deg);
+}
+
+/* Jadval */
+.doctor-table {
+    border-top: 1px solid #e5e7eb;
+}
+
+.doctor-table__row {
+    display: flex;
+    gap: 32px;
+    align-items: flex-start;
+    padding: 12px 0;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.doctor-table__year {
+    font-size: 16px;
+    font-weight: 700;
+    color: #111827;
+    width: 50px;
+    flex-shrink: 0;
+}
+
+.doctor-table__text {
+    font-size: 16px;
+    color: #374151;
+    line-height: 1.6;
+}

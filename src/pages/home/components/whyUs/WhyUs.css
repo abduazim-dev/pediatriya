@@ -1,0 +1,47 @@
+.sct-box {
+    text-align: center;
+}
+
+.sct-box p {
+    color: #5c5c5c;
+    width: 170px;
+    font-weight: 500;
+    margin-left: 20px;
+}
+
+.sct-box img {
+    width: 207px;
+    height: 207px;
+}
+
+.number-box {
+    width: 98.18181610107422px;
+    height: 98.18181610107422px;
+    background-color: #009be3;
+    color: white;
+    border-radius: 50%;
+    font-size: 55px;
+    padding-top: 16px;
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 55px;
+}
+
+.sct-box h2 {
+    color: #5c5c5c;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 70px;
+    margin-bottom: 10px;
+}
+
+.sct-fth {
+    display: flex;
+    gap: 84px;
+    padding-left: 220px;
+}
+
+.why-us{
+    margin-top: 140px;
+    margin-bottom: 140px;
+}

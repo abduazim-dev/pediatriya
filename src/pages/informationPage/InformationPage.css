@@ -1,0 +1,124 @@
+.about-page {
+    padding: 40px 175px 80px;
+}
+
+/* Breadcrumb */
+.about-breadcrumb {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+    color: #5C5C5C;
+    margin-bottom: 24px;
+}
+
+.about-breadcrumb a {
+    text-decoration: none;
+    color: #5C5C5C;
+    transition: color 0.15s;
+}
+
+.about-breadcrumb a:hover {
+    color: #2563eb;
+}
+
+/* Title */
+.about-title {
+    font-size: 26px;
+    font-weight: 700;
+    color: #111827;
+    margin-bottom: 24px;
+}
+
+/* Klinika rasmi */
+.about-clinic-img {
+    width: 100%;
+    margin-bottom: 32px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.about-clinic-img img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+/* Body — chap matn + o'ng direktor */
+.about-body {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+}
+
+/* Chap matn */
+.about-text {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.about-text p {
+    font-size: 15px;
+    color: #374151;
+    line-height: 1.7;
+    margin: 0;
+}
+
+/* O'ng — direktor */
+.about-director {
+    width: 290px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid #e5e7eb;
+}
+
+.about-director img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    display: block;
+}
+
+.about-director__info {
+    background: #2563eb;
+    padding: 16px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.about-director__role {
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    margin: 0;
+}
+
+.about-director__name {
+    font-size: 14px;
+    color: #fff;
+    margin: 0;
+}
+
+.about-director__link {
+    font-size: 13px;
+    color: #bfdbfe;
+    text-decoration: underline;
+    margin-top: 6px;
+    transition: color 0.15s;
+}
+
+.about-director__link:hover {
+    color: #fff;
+}
+
+.nav-link2{
+    font-size: 13px;
+    color: white;
+    margin-top: 13px;
+    margin-left: -40px;
+}

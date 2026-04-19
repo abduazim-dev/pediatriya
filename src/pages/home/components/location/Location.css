@@ -1,0 +1,22 @@
+.location p {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.location-inner{
+    display: flex;
+    padding-left: 175px;
+    gap: 40px;
+}
+
+.location_img{
+    width: 800px;
+    height: 556px;
+}
+
+.location-images img{
+    margin-bottom: 40px;
+    width: 318px;
+    height: 258px;
+}

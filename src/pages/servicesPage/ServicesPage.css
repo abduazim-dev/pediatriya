@@ -1,0 +1,136 @@
+.servicesPage {
+    padding-left: 215px;
+    display: flex;
+    gap: 65px;
+}
+
+.navLink_servicesPage {
+    padding: 9px;
+    text-transform: capitalize;
+    color: #1C1C1C;
+    background-color: transparent;
+    width: 335px;
+    font-size: 18px;
+    border-bottom: 1px solid #C2C2C2;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.navlink_login{
+    text-decoration: none;
+    font-size: 18px;
+    color: #40AA29;
+}
+
+.servicesPage .active {
+    background-color: #009BE3;
+    color: white;
+}
+
+
+
+.servicesPage p {
+    width: 700px;
+    color: #5C5C5C;
+    line-height: 25px;
+}
+
+.servicesPage h2 {
+    margin-bottom: 32px;
+}
+
+.oppointment {
+    display: flex;
+    gap: 160px;
+    align-items: center;
+    margin-top: 32px;
+    margin-bottom: 42px;
+}
+
+.oppointment h3 {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+
+.oppointment button {
+    border: 1px solid #40AA29;
+    color: #40AA29;
+    padding: 15px 42px;
+    background-color: transparent;
+    font-size: 18px;
+    transition: .6s;
+}
+
+.oppointment button:hover {
+    background-color: #40AA29;
+    color: white;
+
+    .navlink_login{
+        color: white;
+    }
+}
+
+.hours__content {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+.price__row {
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+    padding: 14px 0;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.price__row:last-child {
+    border-bottom: none;
+}
+
+.price__info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.price__info strong {
+    font-size: 16px;
+    font-weight: 700;
+    color: #111;
+}
+
+.price__info span {
+    font-size: 16px;
+    color: #374151;
+}
+
+.price__schedule {
+    display: flex;
+    gap: 24px;
+}
+
+.schedule__cell {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+    min-width: 80px;
+}
+
+.schedule__cell span:first-child {
+    font-weight: 600;
+    font-size: 16px;
+    color: #111;
+}
+
+.schedule__cell span:last-child {
+    font-size: 13px;
+    color: #374151;
+}
+
+.prices{
+    margin-top: 47px;
+}

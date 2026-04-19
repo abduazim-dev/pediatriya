@@ -1,0 +1,46 @@
+.pricesPage {
+    padding-left: 215px;
+    padding-right: 215px;
+}
+
+.price__content {
+    border-bottom: 1px solid #009BE3;
+    margin-bottom: 30px;
+}
+
+.price___header {
+    display: flex;
+    gap: 770px;
+    align-items: center;
+}
+
+.price__btn {
+    border: 1px solid #009BE3;
+    width: 182px;
+    height: 47px;
+    background-color: transparent;
+    color: #009BE3;
+    font-size: 16px;
+    border-bottom: none;
+}
+
+.price___header p {
+    color: #5C5C5C;
+    width: 215px;
+    font-size: 18px;
+}
+
+.pricesPage.active {
+    background-color: #009BE3;
+    color: white;
+}
+
+
+.detail_body div{
+    display: flex;
+    background-color: #ECF9FF;
+    color: #009BE3;
+    padding: 14px;
+    gap: 840px;
+    border-bottom: 1px solid #009BE3
+}

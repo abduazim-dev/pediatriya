@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.overlay {
+    min-height: 100vh;
+    background: rgba(0, 0, 0, 0.35);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.modal {
+    background: #fff;
+    border-radius: 16px;
+    padding: 2.5rem 2rem;
+    width: 100%;
+    max-width: 480px;
+    position: relative;
+}
+
+.close-btn {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    color: #888;
+}
+
+.modal .title {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    color: #222;
+}
+
+.field {
+    margin-bottom: 1.25rem;
+}
+
+.field label {
+    font-size: 14px;
+    color: #555;
+    display: block;
+    margin-bottom: 6px;
+}
+
+.field input,
+.field select {
+    width: 100%;
+    height: 48px;
+    padding: 0 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 15px;
+    color: #222;
+    outline: none;
+    box-sizing: border-box;
+    display: block;
+}
+
+.field input.filled,
+.field select.filled {
+    border: 1.5px solid #4caf50;
+}
+
+.date-wrapper {
+    position: relative;
+}
+
+.date-wrapper input {
+    padding-right: 44px;
+    border: 1.5px solid #4caf50;
+}
+
+.calendar-icon {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+}
+
+.field input.name-input {
+    margin-bottom: 10px;
+}
+
+.submit-btn {
+    width: 100%;
+    height: 56px;
+    background: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background: #43a047;
+}
+
+.submit-btn:active {
+    transform: scale(0.98);
+}
+
+.error-msg {
+    color: #e53935;
+    font-size: 13px;
+    margin-top: 6px;
+}
+
+.success-box {
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.check-circle {
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    background: #e8f5e9;
+    color: #4caf50;
+    font-size: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 1rem;
+}
+
+.success-title {
+    font-size: 18px;
+    font-weight: 500;
+    color: #222;
+    margin-bottom: 6px;
+}
+
+.success-sub {
+    font-size: 14px;
+    color: #888;
+}

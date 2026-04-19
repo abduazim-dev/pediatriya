@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.App {
+    overflow-x: hidden;
+}
+
+.title_pages__name {
+    font-size: 28px;
+    font-weight: 700;
+    margin-top: 55px;
+    margin-bottom: 55px;
+}
+
+.specialists__img__content {
+    width: 270px;
+    height: 346px;
+    background-position: top;
+    text-align: center;
+    padding-top: 107%;
+    padding-left: 10px;
+}
+
+.specialists__descr {
+    background-color: #009be3;
+    color: white;
+    padding: 25px;
+    width: 270px;
+    line-height: 30px;
+    font-size: 17px;
+}
+
+.specialists__img__content div {
+    background-color: white;
+    padding: 12px 12px 14px 14px;
+    width: 127px;
+    border-radius: 15px;
+    color: #009be3;
+    font-weight: 700;
+}
+
+.specialists_content {
+    display: flex;
+    gap: 30px;
+    margin-top: 118px;
+}
+
+.specialists {
+    padding-left: 175px;
+    margin-top: 140px;
+}
+
+.reviews_content {
+    /* padding-left: 175px; */
+    padding-right: 175px;
+}
+
+.review__content {
+    border: 2px solid #e8e8e8;
+    border-left: none;
+    padding-top: 28px;
+    display: flex;
+    height: 153px;
+    margin-bottom: 31px;
+    gap: 180px;
+}
+
+.review__content___names {
+    display: flex;
+    gap: 36px;
+    align-items: center;
+}
+
+.review__content___names h2 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.company___name {
+    color: #40aa29;
+}
+
+.review__content p {
+    color: #5c5c5c;
+    width: 620px;
+    font-size: 17px;
+    line-height: 25px;
+    margin-top: 21px;
+}
+
+.review__content button {
+    width: 270px;
+    height: 154px;
+    background-color: #009be3;
+    color: white;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    font-size: 22px;
+    border: none;
+    position: relative;
+    right: -100px;
+    top: -30px;
+    text-decoration: underline;
+}
+
+.navLink__review {
+    color: white;
+    font-size: 22px;
+}
+
+/* News */
+
+.new__content {
+    display: flex;
+    gap: 40px;
+    align-content: center;
+}
+
+.new__content__line {
+    width: 9px;
+    height: 163px;
+    background-color: #009be3;
+}
+
+.new__content__box {
+    border: 2px solid #e8e8e8;
+    border-right: none;
+    height: 163px;
+    padding-top: 33px;
+    padding-left: 51px;
+    padding-right: 170px;
+    margin-bottom: 31px;
+}
+
+.new__content__box p:first-child {
+    color: #5c5c5c;
+    margin-bottom: 17px;
+}
+
+.new__content__box p:last-child {
+    width: 730px;
+    font-size: 18px;
+    color: #1c1c1c;
+    line-height: 25px;
+}
+
+a {
+    color: black;
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+}
+
+button {
+    transition: 0.6s;
+}

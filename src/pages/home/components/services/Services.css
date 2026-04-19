@@ -1,0 +1,57 @@
+.services-box-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.services-box-box h3 {
+    font-size: 24px;
+    margin-right: 306px;
+    width: 158px;
+}
+
+.services-box-box button {
+    margin-left: 29px;
+    padding-left: 50px;
+    padding-right: 50px;
+    height: 53px;
+    border: 2px solid #40aa29;
+    border-bottom: none;
+    color: #40aa29;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    background-color: transparent;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.services-line {
+    border: 2px solid #40aa29;
+}
+
+.services-fth {
+    padding-left: 200px;
+    padding-right: 170px;
+}
+
+.services-box {
+    margin-bottom: 60px;
+}
+
+.link {
+    text-align: center;
+    color: #1c1c1c;
+    display: flex;
+    justify-content: center;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.services{
+    margin-top: 140px;
+}
+
+.services .active{
+    background-color: #40aa29;
+    color: white;
+}

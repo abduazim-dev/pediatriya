@@ -1,0 +1,25 @@
+.partners__inner{
+    display: flex;
+    gap: 135px;
+    padding-left: 175px;
+    align-items: center;
+}
+
+.partners__card{
+    display: flex;
+    gap: 47px;
+}
+.swiper_btn_partners{
+    width: 57px;
+    height: 57px;
+    border-radius: 50%;
+    border: none;
+    background-color: #009BE3;
+    color: white;
+    font-size: 50px;
+}
+
+.partners{
+    margin-top: 140px;
+    margin-bottom: 140px;
+}

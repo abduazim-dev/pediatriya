@@ -1,0 +1,16 @@
+.title{
+    text-align: center;
+    /* margin-top: 140px; */
+    font-size: 38px;
+    margin-bottom: 100px;
+}
+
+.swiper_btn{
+    width: 57px;
+    height: 57px;
+    border-radius: 50%;
+    border: none;
+    background-color: #009BE3;
+    color: white;
+    font-size: 50px;
+}

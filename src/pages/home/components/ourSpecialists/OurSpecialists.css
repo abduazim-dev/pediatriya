@@ -1,0 +1,38 @@
+.specialists_topic{
+    display: flex;
+    gap: 82px;
+    align-items: center;
+}
+
+.specialists_topic__line{
+    border: 2px solid #009BE3;
+    width: 432.00000476837147px;
+    height: 0px;
+}
+
+.specialists_topic h1{
+    font-size: 38px;
+    font-weight: 700;
+}
+
+.specialists_topic button{
+    border: 2px solid #009BE3;
+    width: 212px;
+    height: 60px;
+    border-radius: 15px;
+    background-color: transparent;
+    color: #009BE3;
+}
+
+.nav-link{
+    color: #009BE3;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.specialists_topic button:hover{
+    background-color: #009BE3;
+    .nav-link{
+        color: white;
+    }
+}

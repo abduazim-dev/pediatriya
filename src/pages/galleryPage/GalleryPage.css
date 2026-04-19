@@ -1,0 +1,14 @@
+.galleryPage{
+    padding-left: 215px;
+}
+
+.galleryPage div{
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.galleryPage img{
+    width: 330px;
+    height: 257px;
+}
